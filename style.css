@@ -1,0 +1,78 @@
+:root {
+--red: #FF004E;
+}
+
+header {
+position: fixed;
+width: 98.5%;
+border-bottom: 2px solid black;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: -20px;
+background-color: white;
+}
+
+main {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 15px;
+padding: 10px;
+padding-top: 112px;
+}
+
+img {
+keep-ratio: true;
+height: 14vw;
+}
+
+a {
+color: black;
+font-size: 5vh;
+font-weight: bold;
+line-height: 150%;
+}
+
+h1 {
+font-size: 7vh;
+}
+
+.column {
+display: flex;
+flex-direction: column;
+}
+
+.film-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border-radius: 8px;
+margin-bottom: 15px;
+}
+
+.anime {
+background-color: lightblue;
+}
+
+.horror {
+background-color: var(--red);
+}
+
+.right-container {
+margin-top: 17vh;
+}
+
+.text {
+padding-right: 15px;
+}
+
+.nav-link {
+line-height: 130%;
+padding-right: 10px;
+padding-left: 10px;
+padding-bottom: 5px;
+border-radius: 3px;
+font-size: 4vh;
+align-self: center;
+}
