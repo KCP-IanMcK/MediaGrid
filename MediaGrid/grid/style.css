@@ -1,0 +1,88 @@
+:root {
+--red: #FF004E;
+}
+
+header {
+position: fixed;
+width: 98.5%;
+border-bottom: 2px solid black;
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: end;
+margin-top: -20px;
+background-color: white;
+}
+
+main {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: repeat(1fr);
+justify-content: center;
+gap: 15px;
+padding: 10px;
+padding-top: 112px;
+}
+
+img {
+keep-ratio: true;
+height: 14vw;
+}
+
+a {
+color: black;
+font-size: 5vh;
+font-weight: bold;
+line-height: 150%;
+}
+
+h1 {
+font-size: 7vh;
+}
+
+.column {
+display: grid;
+grid-template-columns: repeat(1fr);
+grid-template-rows: repeat(1fr);
+}
+
+.film-container {
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr 2fr;
+justify-content: space-between;
+border-radius: 8px;
+margin-bottom: 15px;
+}
+
+.anime {
+background-color: lightblue;
+}
+
+.horror {
+background-color: var(--red);
+}
+
+.right-container {
+margin-top: 17vh;
+}
+
+.left-container {
+margin-bottom: 17vh;
+}
+
+.text {
+padding-right: 15px;
+}
+
+.nav-link {
+line-height: 130%;
+padding-right: 10px;
+padding-left: 10px;
+padding-bottom: 5px;
+margin-right: 5vw;
+border-radius: 3px;
+font-size: 4vh;
+align-self: center;
+margin-left: 10vw;
+}
